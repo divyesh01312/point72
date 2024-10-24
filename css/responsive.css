@@ -1,17 +1,75 @@
 /*////////////////////////////////////////////////////// Responsive CSS Structure //////////////////////////////////////////////////////*/
 
-@media(min-width:1400px){
-      .container{
-            max-width: 1190px;
-      }
+@media(min-width:1800px){
+      .container{ max-width: 1730px; }
+
+    
+}
+
+
+@media (min-width: 1700px) and (max-width: 1799px) {
+      .container{ max-width: 1630px; }
+
+      
+}
+
+@media (min-width: 1600px) and (max-width: 1699px) {
+      .container{ max-width: 1530px; }
+      
+      .contact-details-wrap{padding: 40px 27px 40px 60px;}
+}
+
+@media (min-width: 1500px) and (max-width: 1599px) {
+      .container{ max-width: 1430px; }
+
+      .contact-details-wrap{padding: 40px 20px 40px 20px;}
+      .contact-details-title{font-size: 22px;}
+}
+
+@media (min-width: 1400px) and (max-width: 1499px) {
+      .container{ max-width: 1330px; }
+      
+      .trading-main-img-block .trading-img{height: 337px;}
+      .trading-main-img-block .trading-img.left::after{width: 301px;}
+      .trading-main-img-block .trading-img.right::after{width: 301px; height: 262px;}
+
+      /*================ executive-team ==================*/
+      .common-banner-contain.banner-2 .commmon-banner-details { padding: 273px 0 120px; }
+      /*================ executive-team ==================*/
+
+      .contact-details-wrap{padding: 40px 20px 40px 20px;}
+      .contact-details-title{font-size: 20px;}
+
 }
 
 
 @media (min-width: 1300px) and (max-width: 1399px) {
-      .container{
-            max-width: 1190px;
-      }
+      .container{ max-width: 1190px; }
+           
+      .trading-main-img-block .trading-img{height: 300px;}
+      .trading-main-img-block .trading-img.left::after{width: 271px;}
+      .trading-main-img-block .trading-img.right::after { width: 266px; height: 231px; }
+
+      /*================ Aboutus ==================*/
+      .commmon-banner-details {padding: 230px 0 50px; }
+      .our-history-main { padding: 565px 0 80px;}
+      /*================ Aboutus ==================*/
       
+      
+      /*================ executive-team ==================*/
+      .common-banner-contain.banner-2 .commmon-banner-details { padding: 273px 0 120px; }
+      /*================ executive-team ==================*/
+
+      /*================ careers-page ==================*/
+      .common-banner-contain.banner-3 .commmon-banner-details { padding: 230px 0 77px; }
+      .careers-main { padding: 100px 0 100px; }
+      /*================ careers-page ==================*/
+
+      .contact-details-wrap{padding: 40px 20px 40px 20px;}
+      .contact-details-title{font-size: 18px;}
+      .contact-details-block .right-content .detail{margin-left: 10px; font-size: 16px;}
+      .contact-details-block ul li a{font-size: 16px;}
+
 }
 
 @media (min-width: 1200px) and (max-width: 1299px) {
@@ -20,16 +78,51 @@
       .trading-main-wrap .row{margin: 0 -20px;}
       .trading-main-wrap .row>*{padding: 0 20px;}
       /* ==========> trading-main-section <========== */
+
+      /*================ Aboutus ==================*/
+      .commmon-banner-details {padding: 230px 0 50px; }
+      .our-history-main { padding: 565px 0 80px;}
+      .our-history-main .our-values-wrap {padding-top: 100px; }
+      /*================ Aboutus ==================*/
+
+      .trading-main-img-block .trading-img{height: 300px;}
+      .trading-main-img-block .trading-img.left::after{width: 271px;}
+      .trading-main-img-block .trading-img.right::after { width: 266px; height: 231px; }
+
+
+       /*================ executive-team ==================*/
+       .common-banner-contain.banner-2 .commmon-banner-details { padding: 253px 0 100px; }
+       .executive-team { padding: 100px 0 100px; }
+       .team-details-wrap .row { row-gap: 110px; }
+       /*================ executive-team ==================*/
+
+       
+      /*================ careers-page ==================*/
+      .common-banner-contain.banner-3 .commmon-banner-details { padding: 230px 0 77px; }
+      .careers-main { padding: 100px 0 100px; }
+      /*================ careers-page ==================*/
+
+      .contact-details-wrap{padding: 40px 20px 40px 20px;}
+      .contact-details-title{font-size: 18px;}
+      .contact-details-block .right-content .detail{margin-left: 10px; font-size: 16px;}
+      .contact-details-block ul li a{font-size: 16px;}
+      .careers-main.contact-page { padding: 365px 0 88px; }
+      .contact-details-block .left-content{margin-right: 0;}
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-      .section-title{font-size: 32px;}
-      .main-title{font-size: 48px;}
+
+
+      .header .navbar-brand{width: 196px;}
+      .header .navbar-nav .nav-item{margin-right: 40px;}
+      .header .navbar-nav::before{left: 230px;}
+      .header .navbar-nav::after{right: 183px;}
       
       /* ==========> content-wrapper <========== */
-      .content-wrapper { padding: 154px 0 60px; }
-      .trading-main-section { padding-top: 50px; }
+      .content-wrapper { padding: 200px 0 0px; }
       .trading-main-wrap .trading-main-block{margin-bottom: 80px;}
       /* ==========> content-wrapper <========== */
 
@@ -38,18 +131,45 @@
       /* ==========> brands-main-section <========== */
 
       /*================ Aboutus ==================*/
-      .our-history-main { padding: 180px 0 80px; }
+      .commmon-banner-details {padding: 183px 0 170px; }
+      .our-history-main { padding: 415px 0 80px;}
+      .our-history-main .our-values-wrap{padding-top: 100px;}
       /*================ Aboutus ==================*/
 
       /*================ executive-team ==================*/
-      .team-details .row>*{ padding: 0 15px; }
-      .team-details .row{ margin: 0 -15px; }
+      .common-banner-contain.banner-2 .commmon-banner-details { padding: 253px 0 100px; }
+      .executive-team { padding: 100px 0 100px; }
+      .team-details-block .team-details ul{max-width: 184px;}
+      .team-details-wrap .row { row-gap: 80px; }
+      .team-details-wrap .row>*::after{right: 56px;}
       /*================ executive-team ==================*/
 
       /* ==========> trading-main-section <========== */
       .trading-main-wrap .row{margin: 0 -20px;}
       .trading-main-wrap .row>*{padding: 0 20px;}
       /* ==========> trading-main-section <========== */
+
+      .trading-main-img-block .trading-img{height: 250px;}
+      .trading-main-img-block .trading-img.left::after{width: 223px;}
+      .trading-main-section { padding: 50px 0 30px; }
+      .trading-main-img-block .trading-img.right::after { width: 224px; height: 195px; }
+
+      /*================ careers-page ==================*/
+      .common-banner-contain.banner-3 .commmon-banner-details { padding: 230px 0 77px; }
+      .careers-main { padding: 100px 0 100px; }
+      .careers-form-wrap .row { row-gap: 40px; }
+      /*================ careers-page ==================*/
+
+      .contact-details-wrap .row>*::after{right: 5px;}
+      .contact-details-wrap{padding: 40px 20px 40px 20px;}
+      .contact-details-title{font-size: 18px; line-height: 150%;}
+      .contact-details-block .right-content .detail{margin-left: 10px; font-size: 16px;}
+      .contact-details-block ul li a{font-size: 16px;}
+      .careers-main.contact-page { padding: 285px 0 80px; }
+      .common-banner-contain.banner-4 .commmon-banner-details { padding: 223px 0 180px; }
+      .common-banner-contain.banner-4 .content-img{margin-bottom: -410px;}
+      .contact-details-block .left-content {margin-right: 0px;}
+
 }
 
 @media(min-width:992px){
@@ -71,34 +191,34 @@
       .navbar .navbar-collapse { display: block; position: fixed; right: -100%; top: 0; bottom: 0; height: 100%; z-index: 999; width: 100%; overflow: auto; background: #ffffff; padding: 100px 20px 30px; transition: 0.5s; -webkit-transition: 0.5s; -moz-transition: 0.5s; -ms-transition: 0.5s; -o-transition: 0.5s; }
       .navbar .navbar-collapse.show { right: 0; background-image: url('../images/menu-bg.jpg'); background-size: cover;}
      
-      .header .btn.btn-white span{  color: #fff; background: #1c7857;}
-      .header .btn.btn-white {color: #1c7857;}
+      .header .btn.btn-white span{  color: #fff; background: #2397D4;}
+      .header .btn.btn-white {color: #2397D4;}
       .h-content  .btn-contain{margin-top: 20px;}
-  
-      .navbar-brand{width: 92px;}
+      .header .navbar-brand{width: 160px;}
+      .header .navbar{padding: 25px 0;}
 
       .navbar .btn-search{margin-left: 0px;}
       .navbar-nav .nav-item .nav-link { display: flex; align-items: center; justify-content: space-between; padding: 10px 0 !important; }
       /* header */
 
+      .header .nav-link.active::after{display: none;}
       /*================ executive-team ==================*/
-      .team-details .row>*{ padding: 0 15px; }
-      .team-details .row{ margin: 0 -15px; }
+  
       /*================ executive-team ==================*/
 
       /* ==========> trading-main-section <========== */
-      .trading-main-wrap .row{margin: 0 -20px;}
-      .trading-main-wrap .row>*{padding: 0 20px;}
+      .trading-main-wrap .row{margin: 0 -15px;}
+      .trading-main-wrap .row>*{padding: 0 15px;}
+      
       /* ==========> trading-main-section <========== */
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-      .section-title{font-size: 28px;}
-      .main-title{font-size: 42px;}
       /* ==========> content-wrapper <========== */
-      .content-wrapper { padding: 114px 0 40px; }
-      .trading-main-section { padding-top: 30px; }
+      .content-wrapper { padding: 180px 0 0; }
+      
+      .trading-main-section { padding: 50px 0 20px; }
       .trading-main-wrap .trading-main-block { margin-bottom: 70px; }
       .trading-main-img-block .large-img { height: 247px; }
       .trading-main-img-block .small-img { height: 138px; }
@@ -106,40 +226,82 @@
       /* ==========> content-wrapper <========== */
 
       /*================ Aboutus ==================*/
-      .our-history-main { padding: 180px 0 50px; }
+      .commmon-banner-details {padding: 173px 0 310px;}
+      .our-history-main { padding: 255px 0 60px;}
+      .our-values-detail ul li{margin-bottom: 10px;}
+      .our-values-detail .section-title{margin-bottom: 20px;}
+      .our-history-main .our-values-wrap { padding-top: 50px; }
+      .team-details-wrap .row>*::after{right: 36px;}
       /*================ Aboutus ==================*/
+
+      .trading-main-img-block .trading-img{height: 180px;}
+      .trading-main-img-block .trading-img.left::after{width: 164px;}
+      .trading-main-img-block .trading-img.right{margin-top: 167px;}
+      .trading-main-img-block .trading-img.right::after { width: 164px; height: 143px; right: -7px; }
 
       /* ==========> brands-main-section <========== */
       .brands-main-section{padding: 40px 0;}
       .brands-main-wrap>*{flex: 0 0 auto; width: 33.33%;}
       .brands-main-wrap{row-gap: 20px;}
       /* ==========> brands-main-section <========== */
+      
+      /*================ executive-team ==================*/
+      .common-banner-contain.banner-2 .commmon-banner-details { padding: 150px 0 30px; }
+      .executive-team { padding: 80px 0; }
+      .team-details-block .team-details ul{max-width: 150px;}
+      .team-details-wrap .row { row-gap: 30px; }
+      /*================ executive-team ==================*/
+
+      /*================ careers-page ==================*/
+      .common-banner-contain.banner-3 .commmon-banner-details { padding: 150px 0 50px; }
+      .careers-main { padding: 70px 0 70px; }
+      .careers-form-wrap .row { row-gap: 40px; }
+      /*================ careers-page ==================*/
+
+
+      .contact-details-wrap{padding: 40px 20px 40px 20px;}
+      .contact-details-title{font-size: 16px; line-height: 150%;}
+      .contact-details-block .right-content .detail{margin-left: 0px; font-size: 16px;}
+      .contact-details-block ul li a{font-size: 16px;}
+      .careers-main.contact-page { padding: 185px 0 80px; }
+      
+      .common-banner-contain.banner-4 .commmon-banner-details { padding: 183px 0 170px; }
+      .content-img { margin-bottom: -300px;}
+      .contact-details-block{flex-direction: column;}
+      .contact-details-block ul li {color: #757575;margin-bottom: 15px;}
+
 
       /* ==========> footer <========== */
-      .quick-link-block .f-title{font-size: 18px;}
-      .quick-link ul li{font-size: 12px;}
+
       .f-logo{width: 94px;}
+      .f-logo-block .f-logo{width: 182px;}
+      .footer .f-top{padding: 80px 0 50px;}
+      .f-block.f-quick-link .quick-link ul li{margin-bottom: 20px;}
+      .footer .f-bottom .f-content{padding: 20px 0;}
+      .f-block.f-quick-link { margin-left: 28px; }
       .f-bootom{flex-direction: column; row-gap: 20px;}
       .footer .f-contet{padding: 50px 0;}
       /* ==========> footer <========== */
 }
 
 @media (max-width: 767px) {
-      
-      .section-title{font-size: 24px;}
-      .main-title{font-size: 36px; letter-spacing: -1.2px;}
+      .btn{padding: 16px;}
+      .header .btn-contain .btn{padding: 12px 20px;}
       /* ==========> content-wrapper <========== */
-      .content-wrapper { padding: 140px 0 20px; }
+      .content-wrapper { padding: 180px 0 0px; }
+      .header .navbar-nav::after{display: none;}
+      .header .navbar-nav::before{display: none;}
       .trading-main-img-block{justify-content: center;}
       .banner-details .main-title { margin-bottom: 20px; }
       .trading-main-wrap .row{margin: 0 -15px;}
       .banner-details .pointer-arrow{margin: 0;}
       .banner-details .pointer-arrow svg{height: 120px;}
-      .trading-main-section { padding-top: 50px; }
-      .trading-main-wrap .trading-main-block { margin-bottom: 30px; }
+      .trading-main-wrap .trading-main-block { margin-bottom: 30px; text-align: center;}
       .trading-main-img-block .large-img { height: 227px; }
+      .trading-main-section{padding: 50px 0 20px;}
       .trading-main-img-block .small-img { height: 138px; }
       .trading-main-wrap .row>* { padding: 0 15px; }
+      .careers-form-wrap .form-group .common-filed::after{left: 15px;}
       /* ==========> content-wrapper <========== */
 
        /* ==========> brands-main-section <========== */
@@ -148,35 +310,79 @@
        .brands-main-wrap{row-gap: 20px;}
        /* ==========> brands-main-section <========== */
       
-       /*================ Aboutus ==================*/
-       .who-we-are-main { padding: 140px 0 80px; }
-       .who-we-are-main .who-we-are-details{margin-bottom: 40px;}
-       .our-history-main { padding: 130px 0 50px; }
-       /*================ Aboutus ==================*/
+      /*================ Aboutus ==================*/
+      .commmon-banner-details {padding: 120px 0 50px;}
+      .common-banner-contain.banner-4 .content-img { margin-bottom: -150px;}
+      .our-history-main { padding: 100px 0 30px;}
+      .our-values-detail ul li{margin-bottom: 10px;}
+      .our-values-detail .section-title{margin-bottom: 20px;}
+      .our-history-main .our-values-wrap { padding-top: 30px; }
+      .commmon-banner-details .commmon-banner-wrap{text-align: center;}
+      .team-details-wrap .row>*::after{right: 15px; width: 100%; height: 1px; left: 15px; bottom: 0; top: 100%;}
+      .common-filed.number-filed::before{width: 13px; right: 15px;}
+      .contact-details-block{flex-direction: column;}
+      .contact-details-block .right-content .detail{margin-left: 0;}
+      .contact-details-title{margin-bottom: 10px;}
+      .contact-details-block ul li span{display: inline;}
+      
+      .contact-details-block ul li a{margin-left: 0px;}
+      .contact-details-block ul li span{margin-right: 0;}
+      .our-values-block .our-values-img{text-align: center;}
+      .team-details-wrap .row{row-gap: 30px;}
+      .careers-main.contact-page { padding: 130px 0 68px; }
+      .contact-details-wrap{padding: 30px 15px 30px;}
+      .contact-details-block .right-content .detail br{display: none;}
+      .contact-details-block .left-content{margin-right: 0;}
+      .contact-details-title{font-size: 16px;}
+      .contact-details-block ul li{margin-bottom: 20px;}
+      .contact-details-block .right-content .detail *{margin-bottom: 0;}
+      .contact-details-wrap .row{row-gap: 20px;}
+      /*================ Aboutus ==================*/
+
 
        /*================ executive-team ==================*/
-       .team-details-main { padding: 50px 0 30px; }
-       .team-details-block .section-title { margin-bottom: 18px; }
-       .team-contact-details { margin-bottom: 18px; }
-       .who-we-are-main-2 { padding: 120px 0 60px; }
+       .common-banner-contain.banner-2 .commmon-banner-details { padding: 140px 0 20px; }
+       .executive-team { padding: 50px 0 30px; }
+       .team-details-block .team-details{margin: 25px 0;}
+       .team-details-block .team-details ul{max-width: 150px;}
+       .team-details-wrap .row { row-gap: 30px; }
        /*================ executive-team ==================*/
+       
+      /*================ careers-page ==================*/
+      .common-banner-contain.banner-3 .commmon-banner-details { padding: 143px 0 45px; }
+      .careers-main { padding: 50px 0 50px; }
+       .careers-form-wrap .row { row-gap: 30px; }
+       .form-group .form-control{padding: 12px 15px;}
+       .file-upload-text{left: 15px;}
+       .careers-form-wrap .form-group input[type="file"]::after{width: 20px; height: 20px; right: 15px;}
+       .form-group textarea{height: 100px;}
+       .form-btn{padding: 16px 36px;}
+       .common-banner-contain.banner-4 .commmon-banner-details { padding: 150px 0 70px; }
+      /*================ careers-page ==================*/
+
+      
+      .contact-details-wrap .row>*::after{display: none;}
 
       /* ==========> footer <========== */
-      .quick-link-block .f-title{font-size: 18px;}
-      .quick-link ul li{font-size: 12px;}
-      .f-logo{width: 94px;}
-      .f-bootom{flex-direction: column; row-gap: 20px;}
-      .footer .f-contet { padding: 30px 0; }
-      .f-top .f-block { margin-bottom: 30px; }
-      .f-bootom .f-left ul{flex-direction: column; row-gap: 5px;}
-      .f-bootom .f-left ul li{padding-right: 0;}
-      .f-bootom .f-left ul li::before{display: none;}
+      .f-logo-block .f-logo{width: 186px;}
+      .f-block.f-quick-link{margin-left: 0;}
+      .f-block.f-logo-block::after{display: none;}
+      .footer .f-top{padding: 50px 0 30px;}
+      .f-block.f-quick-link .quick-link ul li{margin-bottom: 20px;}
+      .f-top .f-block{text-align: center;}
+      .footer .f-bottom .f-content{padding: 20px 0;}
+      .f-logo-block .f-logo{margin-right: auto; margin-left: auto;}
       /* ==========> footer <========== */
 }
 
 /*---------- Small Mobile , IPhone Start ----------*/
 /*=== Screen Size = 240, 320, 360, 480, 568 ===*/
-@media (min-width: 576px) and (max-width: 767px) {}
+@media (min-width: 576px) and (max-width: 767px) {
+
+      .trading-main-img-block .trading-img{height: 287px;}
+      .trading-main-img-block .trading-img.left::after{width: 261px;}
+      .trading-main-img-block .trading-img.right::after{    width: 254px; height: 219px;}
+}
 
 @media (min-width: 429px) and (max-width: 575px) {}
 
@@ -185,6 +391,10 @@
       .section-title{font-size: 24px;}
       .main-title{font-size: 28px; letter-spacing: -1.2px;}
       
+      .trading-main-img-block .trading-img{height: 152px;}
+      .trading-main-img-block .trading-img.left::after{width: 140px;}
+      .trading-main-img-block .trading-img.right::after{    width: 143px; height: 120px; right: -10px;}
+      .trading-main-img-block .trading-img.right{margin-top: 146px;}
        /* ==========> brands-main-section <========== */
        .brands-main-wrap>*{flex: 0 0 auto; width: 50%;}
        .brands-main-wrap{row-gap: 20px;}
@@ -192,7 +402,7 @@
 
       /* ==========> footer <========== */
       .f-top .f-block{text-align: center;}
-      .f-logo{margin: 0 auto;}
+      .footer .f-bottom .f-content{flex-direction: column; row-gap: 20px;}
       /* ==========> footer <========== */
 }
 
